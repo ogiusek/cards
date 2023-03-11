@@ -1,0 +1,41 @@
+.selectedCards,
+.lastMoveCards {
+    position: absolute;
+    bottom: 60vh;
+    width: 40vw;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.selectedCards {
+    left: 1vw;
+    justify-content: flex-start;
+}
+
+.lastMoveCards {
+    right: 1vw;
+}
+
+.sideCard {
+    max-width: calc(96vw / 9);
+    max-height: 20vh;
+    margin-left: .25vw;
+    transition: 1s;
+}
+
+.sideCard:hover {
+    max-width: calc(193.75vw / 9);
+    max-height: 40vh;
+    z-index: 1;
+}
+
+@media all and (max-width:1300px) {
+
+    .selectedCards,
+    .lastMoveCards {
+        bottom: calc(12.5vw * 1.5 + 15vh * 2.1 + 25px);
+    }
+}

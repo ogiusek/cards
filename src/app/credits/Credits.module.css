@@ -1,0 +1,44 @@
+.credits {
+    width: 500px;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.credits div {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.credits h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.credits h2 {
+    font-size: 14px;
+}
+
+.credits h1,
+.credits h2 {
+    text-align: center;
+    color: white;
+}
+
+.home {
+    margin-top: 30px;
+    padding: 10px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.home a {
+    color: white;
+}

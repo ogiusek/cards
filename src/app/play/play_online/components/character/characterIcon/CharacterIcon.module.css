@@ -1,0 +1,52 @@
+.icon {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.iconHover {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    max-width: calc(100% / 3);
+    max-height: calc(100% /3);
+    z-index: 1;
+}
+
+.iconHover img {
+    margin-top: var(--additional-margin);
+    max-width: 100%;
+    background-color: rgb(255, 255, 255, .4);
+    border-radius: 100%;
+    /* z-index: 1; */
+}
+
+.iconText {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    z-index: 10;
+    flex-wrap: wrap;
+}
+
+.iconText div {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    color: orange;
+}
+
+.iconHover:not(:hover) .iconText {
+    display: none;
+}
+
+.icon:nth-child(2) {
+    justify-content: center;
+}
+
+.icon:nth-child(3) {
+    justify-content: flex-end;
+}

@@ -1,0 +1,49 @@
+.cards {
+    height: calc(100% - 20px - 15vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card {
+    margin-top: -13vh;
+    max-width: 10vw;
+    max-height: 15vh;
+    /* box-shadow: inset 0px 0px 0px 50px rgb(255, 255, 255); */
+}
+
+.card:nth-child(1) {
+    rotate: calc(55deg + 180deg);
+    transform: translateY(120%);
+}
+
+.card:nth-child(2) {
+    rotate: calc(40deg + 180deg);
+    transform: translateY(65%) translateX(-30%);
+}
+
+.card:nth-child(3) {
+    rotate: calc(20deg + 180deg);
+    transform: translateY(25%) translateX(-30%);
+}
+
+.card:nth-child(4) {
+    rotate: calc(180deg);
+    transform: translateY(10%);
+}
+
+.card:nth-child(5) {
+    rotate: calc(-20deg + 180deg);
+    transform: translateY(25%) translateX(30%);
+}
+
+.card:nth-child(6) {
+    rotate: calc(-40deg + 180deg);
+    transform: translateY(65%) translateX(30%);
+}
+
+.card:nth-child(7) {
+    rotate: calc(-55deg + 180deg);
+    transform: translateY(120%);
+}

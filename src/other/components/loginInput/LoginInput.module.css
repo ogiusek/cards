@@ -1,0 +1,15 @@
+.input {
+    margin-bottom: 10px;
+}
+
+.input input {
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+    outline: transparent;
+    border-radius: 5px;
+}
+
+.input label {
+    margin-left: 5px;
+}

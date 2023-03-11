@@ -1,0 +1,39 @@
+.playContainer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.match {
+    width: 100%;
+    height: 100%;
+    /* background-image: url('./background.jpg'); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.half {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.playButton {
+    z-index: 1;
+    position: absolute;
+    right: 5vw;
+    bottom: calc(20px + 10vh);
+}
+
+.playButton:enabled:hover {
+    box-shadow: inset 0 0 1000px 0 rgb(255, 255, 255, .3);
+}

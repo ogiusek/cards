@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  overflow-x: hidden;
+  user-select: none;
+}
+
+body *,
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.buttonContainer button,
+.buttonContainer a {
+  outline: transparent;
+
+  background-color: transparent;
+  background-image: url('https://scontent-frt3-2.xx.fbcdn.net/v/t1.15752-9/333621229_1220593535231112_1246510127263786937_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=4byFTA8UKC8AX8evX5Q&_nc_ht=scontent-frt3-2.xx&oh=03_AdT2COp3J4jsmd6187Im8qX1jQKvtKl93nWIK8Y6vmn4eQ&oe=6425335D');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  color: goldenrod;
+
+  text-align: center;
+  font-size: 18px;
+
+  margin-top: 5px;
+  padding: 25px;
+  border: none;
+
+  height: 20px;
+  width: 170px;
+  max-width: 90vw;
+  transition: 1s;
+}
+
+.buttonContainer button {
+  width: 220px;
+  height: 70px;
+}

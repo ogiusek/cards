@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 150px;
+    max-height: 100vw;
+    height: 350px;
+}
+
+.home a:hover {
+    box-shadow: inset 1000px 0 0 0 rgb(255, 255, 255, 0.2);
+}
